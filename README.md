@@ -59,6 +59,10 @@ Example patch of the Agia Napa area (left), pixel classification results obtaine
 ![sfm_410](https://github.com/user-attachments/assets/3f35fa83-4ec4-4eea-b714-3d49f62de928)
 ![inference_410](https://github.com/user-attachments/assets/dfbf6552-6eb0-4ef7-b3c3-ccd41f439c6c)
 
+![img_410_s2](https://github.com/user-attachments/assets/2f02c6d4-4079-4ef6-b0a6-6c0bf678191c)
+![sfm_410](https://github.com/user-attachments/assets/3f35fa83-4ec4-4eea-b714-3d49f62de928)
+![inference_410_s2](https://github.com/user-attachments/assets/25c55e4d-62d5-4490-9f55-eebcb0243167)
+
 
 ## Authors
 Panagiotis Agrafiotis [https://www.user.tu-berlin.de/pagraf/](https://www.user.tu-berlin.de/pagraf/)
