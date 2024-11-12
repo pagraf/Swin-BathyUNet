@@ -53,7 +53,7 @@ We provide code and model weights for the following deep learning models that ha
 To achieve the results presented in the paper, use the parameters and the specific train-evaluation splits provided in the dataset. Parameters can be found [here](https://drive.google.com/file/d/1gkIG99WFI6LNP7gsRvae9FZWU3blDPgv/view?usp=sharing) while train-evaluation splits are included in the dataset.
 
 ## Example testing results
-Example patch of the Agia Napa area (left), pixel classification results obtained by U-Net (middle) and predicted bathymetry obtained by MagicBathy-U-Net (right). For more information on the results and accuracy achieved read our [paper](https://www.magicbathy.eu/). 
+Example patch of the Agia Napa area (left), refraction corrected SfM-MVS priors used for training, and predicted bathymetry obtained by the Dual Attention Network (right). For more information on the results and accuracy achieved read our [paper](https://www.magicbathy.eu/). 
 
 ![img_410](https://github.com/user-attachments/assets/85e891e3-70d0-46f1-bdbc-23df9fc6128c)
 ![sfm_410](https://github.com/user-attachments/assets/3f35fa83-4ec4-4eea-b714-3d49f62de928)
@@ -61,7 +61,8 @@ Example patch of the Agia Napa area (left), pixel classification results obtaine
 
 ![img_410_s2](https://github.com/user-attachments/assets/2f02c6d4-4079-4ef6-b0a6-6c0bf678191c)
 ![sfm_410](https://github.com/user-attachments/assets/3f35fa83-4ec4-4eea-b714-3d49f62de928)
-![inference_410_s2](https://github.com/user-attachments/assets/25c55e4d-62d5-4490-9f55-eebcb0243167)
+![depth_410_s2](https://github.com/user-attachments/assets/0c090aab-62a5-42c1-80bb-4be95556ff73)
+
 
 
 ## Authors
