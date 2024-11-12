@@ -1,7 +1,11 @@
-# Dual-Attention-based-Bathymetry-Retrieval-from-RGB-Imagery
+# Dual-Attention-based-Bathymetry-Retrieval-from-RGB-Imagery-in-Shallow-Waters
 ![unetswin6](https://github.com/user-attachments/assets/85e57c67-1b36-4fc8-811b-b1bdfd491601)
 
 This repository contains the code of the paper "P. Agrafiotis, Ł. Janowski, D. Skarlatos and B. Demir, "MAGICBATHYNET: A Multimodal Remote Sensing Dataset for Bathymetry Prediction and Pixel-Based Classification in Shallow Waters," IGARSS 2024 - 2024 IEEE International Geoscience and Remote Sensing Symposium, Athens, Greece, 2024, pp. 249-253, doi: 10.1109/IGARSS53475.2024.10641355."<br />
+
+## Abstract
+Accurate, detailed, and high-frequent bathymetry is crucial for under-mapped shallow seabed areas facing intense climatological and anthropogenic pressures. Current methods utilizing optical remote sensing images to derive bathymetry primarily rely on either Structure-from-Motion and Multi-View Stereo (SfM-MVS) with refraction correction or Spectral-Based Bathymetry (SBB). This work introduces a methodology that combines the high-fidelity 3D reconstruction capabilities of the SfM-MVS methods with state-of-the-art refraction correction techniques, along with the broad-scale coverage and spectral analysis capabilities of a deep learning-based method for bathymetry prediction. This integration enables a synergistic approach where incomplete Digital Surface Models (DSM) derived from SfM-MVS and consequently corrected by the refraction effects serve as priors for generating bathymetric maps in the context of Spectral-Based Bathymetry prediction with a dual attention deep neural network. This approach eliminates the major drawback of SBB methods i.e. the need for extensive manual fieldwork or the cost of purchasing reference data, which is often unavailable, by using only overlapping remote sensing imagery to produce the required reference data. Furthermore, it effectively addresses the primary remaining limitations in bathymetric SfM-MVS after correcting for refraction, such as missing data and noise caused in environments with homogeneous visual textures, leading to more accurate and complete DSMs of the seabed. Experimental results at two different test sites in the Mediterranean and Baltic Seas demonstrate the effectiveness of the proposed approach in terms of bathymetric accuracy, increased detail, increased coverage, and reduced noise in the predicted DSM.
+
 
 Download the paper from: [arXiv](https://arxiv.org/abs/2405.15477)
 
