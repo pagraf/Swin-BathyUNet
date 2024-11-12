@@ -1,4 +1,5 @@
 # Dual-Attention-based-Bathymetry-Retrieval-from-RGB-Imagery
+![unetswin6](https://github.com/user-attachments/assets/85e57c67-1b36-4fc8-811b-b1bdfd491601)
 
 This repository contains the code of the paper "P. Agrafiotis, Ł. Janowski, D. Skarlatos and B. Demir, "MAGICBATHYNET: A Multimodal Remote Sensing Dataset for Bathymetry Prediction and Pixel-Based Classification in Shallow Waters," IGARSS 2024 - 2024 IEEE International Geoscience and Remote Sensing Symposium, Athens, Greece, 2024, pp. 249-253, doi: 10.1109/IGARSS53475.2024.10641355."<br />
 
