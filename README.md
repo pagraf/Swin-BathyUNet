@@ -1,4 +1,4 @@
-# Dual-Attention-based-Bathymetry-Retrieval-from-RGB-Imagery-in-Shallow-Waters
+# Dual-Attention-based-Bathymetry-Retrieval-in-Shallow-Waters-from-Remote-Sensing-RGB-Imagery-
 ![unetswin7](https://github.com/user-attachments/assets/9c8d30dd-23cd-4cc4-81d2-ff8ff68c1d20)
 
 
