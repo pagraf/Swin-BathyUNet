@@ -198,6 +198,7 @@ dependencies:
       - decorator==4.4.2
       - defusedxml==0.7.1
       - dill==0.3.4
+      - einops==0.4.1
       - entrypoints==0.4
       - folium==0.13.0
       - geoarray==0.15.8
