@@ -1,5 +1,5 @@
 # Swin-BathyUNet: A Swin-Transformer Enhanced U-Net for Shallow Water Bathymetry Using Remote Sensing Imagery and Multi-view Stereo-derived DSMs with Missing Data
-![unetswin7](https://github.com/user-attachments/assets/9c8d30dd-23cd-4cc4-81d2-ff8ff68c1d20)
+![unetswin9](https://github.com/user-attachments/assets/e5198507-7491-4aff-9ac6-74764ecc5f5c)
 
 
 This repository contains the code of the paper "P. Agrafiotis, Ł. Janowski, D. Skarlatos and B. Demir, "MAGICBATHYNET: A Multimodal Remote Sensing Dataset for Bathymetry Prediction and Pixel-Based Classification in Shallow Waters," IGARSS 2024 - 2024 IEEE International Geoscience and Remote Sensing Symposium, Athens, Greece, 2024, pp. 249-253, doi: 10.1109/IGARSS53475.2024.10641355."<br />
