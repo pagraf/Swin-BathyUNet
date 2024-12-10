@@ -2,7 +2,7 @@
 ![unetswin9](https://github.com/user-attachments/assets/e5198507-7491-4aff-9ac6-74764ecc5f5c)
 
 
-This repository contains the code of the paper "P. Agrafiotis, Ł. Janowski, D. Skarlatos and B. Demir, "MAGICBATHYNET: A Multimodal Remote Sensing Dataset for Bathymetry Prediction and Pixel-Based Classification in Shallow Waters," IGARSS 2024 - 2024 IEEE International Geoscience and Remote Sensing Symposium, Athens, Greece, 2024, pp. 249-253, doi: 10.1109/IGARSS53475.2024.10641355."<br />
+This repository contains the code of the paper "P. Agrafiotis and B. Demir, "Swin-BathyUNet: A Swin-Transformer Enhanced U-Net for Shallow Water Bathymetry Using Remote Sensing Imagery and Multi-view Stereo-derived DSMs with Missing Data" submitted to the ISPRS Journal of Photogrammetry and Remote Sensing"<br />
 
 ## Abstract of the respective [paper](https://arxiv.org/abs/2405.15477)
 Accurate, detailed, and high-frequent bathymetry is crucial for shallow seabed areas facing intense climatological and anthropogenic pressures. Current methods utilizing optical remote sensing images to derive bathymetry primarily rely on either Structure-from-Motion and Multi-View Stereo (SfM-MVS) with refraction correction or Spectrally Derived Bathymetry (SDB). However, SDB methods often require extensive manual fieldwork or costly reference data while SfM-MVS approaches face challenges even after refraction correction. These include depth data gaps and noise in environments with homogeneous visual textures, which hinder the creation of accurate and complete Digital Surface Models (DSMs) of the seabed. To address these challenges, this work introduces a methodology that combines the high-fidelity 3D reconstruction capabilities of the SfM-MVS methods with state-of-the-art refraction correction techniques, along with the spectral analysis capabilities of a new deep learning-based method for bathymetry prediction. This integration enables a synergistic approach where SfM-MVS derived DSMs with data gaps, are used as training data to generate complete bathymetric maps. 
@@ -12,32 +12,21 @@ Accurate, detailed, and high-frequent bathymetry is crucial for shallow seabed a
 Additionally, a boundary-sensitive weighted loss function is introduced to prioritize relevant depth labels. Experimental results at two test sites in the Mediterranean and Baltic Seas demonstrate the effectiveness of the proposed approach through extensive experiments showcasing improvements in bathymetric accuracy, detail, coverage, and noise reduction in the predicted DSM. The code will be made publicly available upon acceptance.
 
 
-Download the paper from: [arXiv](https://arxiv.org/abs/2405.15477)
+Download the paper from: [arXiv]()
 
 ## Citation
 
 If you find this repository useful, please consider giving a star ⭐.<br />
 If you use the code in this repository or the dataset please cite:
 
->P. Agrafiotis, Ł. Janowski, D. Skarlatos and B. Demir, "MAGICBATHYNET: A Multimodal Remote Sensing Dataset for Bathymetry Prediction and Pixel-Based Classification in Shallow Waters," IGARSS 2024 - 2024 IEEE International Geoscience and Remote Sensing Symposium, Athens, Greece, 2024, pp. 249-253, doi: 10.1109/IGARSS53475.2024.10641355.
-```
-@INPROCEEDINGS{10641355,
-  author={Agrafiotis, Panagiotis and Janowski, Łukasz and Skarlatos, Dimitrios and Demir, Begüm},
-  booktitle={IGARSS 2024 - 2024 IEEE International Geoscience and Remote Sensing Symposium}, 
-  title={MAGICBATHYNET: A Multimodal Remote Sensing Dataset for Bathymetry Prediction and Pixel-Based Classification in Shallow Waters}, 
-  year={2024},
-  volume={},
-  number={},
-  pages={249-253},
-  doi={10.1109/IGARSS53475.2024.10641355}}
-```
+>P. Agrafiotis and B. Demir, "Swin-BathyUNet: A Swin-Transformer Enhanced U-Net for Shallow Water Bathymetry Using Remote Sensing Imagery and Multi-view Stereo-derived DSMs with Missing Data" XXX XXX.
 <br />
 
 # Getting started
 
 ## Clone the repo
 
-`git clone https://github.com/pagraf/MagicBathyNet.git`
+`git clone https://github.com/pagraf/Swin-BathyUNet.git`
 
 ## Installation Guide
 The requirements are easily installed via Anaconda (recommended):
