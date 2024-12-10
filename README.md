@@ -24,7 +24,7 @@ If you use the code in this repository or the dataset please cite:
 
 # Getting started
 
-## Downloading the dataset
+## Downloading the dataset (in cse you don't have your own data or wish to compare)
 
 For downloading the dataset and a detailed explanation of it, please visit the MagicBathy Project website at [https://www.magicbathy.eu/magicbathynet.html](https://www.magicbathy.eu/magicbathynet.html)
 
