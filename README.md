@@ -2,15 +2,13 @@
 
 This repository contains the code of the paper "P. Agrafiotis and B. Demir, "Swin-BathyUNet: A Swin-Transformer Enhanced U-Net for Shallow Water Bathymetry Using Remote Sensing Imagery and Multi-view Stereo-derived DSMs with Missing Data" submitted to the ISPRS Journal of Photogrammetry and Remote Sensing"<br />
 
-## Abstract of the respective paper
+## Abstract of the respective paper [![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2405.15477) [![MagicBathy](https://img.shields.io/badge/MagicBathy-Project-red.svg)](https://www.magicbathy.eu)
 Accurate, detailed, and high-frequent bathymetry is crucial for shallow seabed areas facing intense climatological and anthropogenic pressures. Current methods utilizing optical remote sensing images to derive bathymetry primarily rely on either Structure-from-Motion and Multi-View Stereo (SfM-MVS) with refraction correction or Spectrally Derived Bathymetry (SDB). However, SDB methods often require extensive manual fieldwork or costly reference data while SfM-MVS approaches face challenges even after refraction correction. These include depth data gaps and noise in environments with homogeneous visual textures, which hinder the creation of accurate and complete Digital Surface Models (DSMs) of the seabed. To address these challenges, this work introduces a methodology that combines the high-fidelity 3D reconstruction capabilities of the SfM-MVS methods with state-of-the-art refraction correction techniques, along with the spectral analysis capabilities of a new deep learning-based method for bathymetry prediction. This integration enables a synergistic approach where SfM-MVS derived DSMs with data gaps, are used as training data to generate complete bathymetric maps. 
 
 **In this context, we propose Swin-BathyUNet, a deep learning model that combines U-Net with Swin Transformer self-attention layers and a cross-attention mechanism, tailored specifically for SDB. Swin-BathyUNet is designed to improve bathymetric accuracy by capturing long-range spatial relationships and can also function as a standalone solution for standard bathymetric mapping with various training depth data, independent of SfM-MVS output**. 
 
 Additionally, a boundary-sensitive weighted loss function is introduced to prioritize relevant depth labels. Experimental results at two test sites in the Mediterranean and Baltic Seas demonstrate the effectiveness of the proposed approach through extensive experiments showcasing improvements in bathymetric accuracy, detail, coverage, and noise reduction in the predicted DSM. The code will be made publicly available upon acceptance.
 
-[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2405.15477) [![MagicBathy](https://img.shields.io/badge/MagicBathy-Project-red.svg)](https://www.magicbathy.eu)
-<br />
 
 ## Citation
 
