@@ -11,8 +11,8 @@ Accurate, detailed, and high-frequent bathymetry is crucial for shallow seabed a
 
 Additionally, a boundary-sensitive weighted loss function is introduced to prioritize relevant depth labels. Experimental results at two test sites in the Mediterranean and Baltic Seas demonstrate the effectiveness of the proposed approach through extensive experiments showcasing improvements in bathymetric accuracy, detail, coverage, and noise reduction in the predicted DSM. The code will be made publicly available upon acceptance.
 
-
-Download the paper from: [arXiv]()
+[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2405.15477) [![MagicBathy](https://img.shields.io/badge/MagicBathy-Project-red.svg)](https://www.magicbathy.eu)
+<br />
 
 ## Citation
 
