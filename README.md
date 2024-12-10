@@ -24,6 +24,10 @@ If you use the code in this repository or the dataset please cite:
 
 # Getting started
 
+## Downloading the dataset
+
+For downloading the dataset and a detailed explanation of it, please visit the MagicBathy Project website at [https://www.magicbathy.eu/magicbathynet.html](https://www.magicbathy.eu/magicbathynet.html)
+
 ## Clone the repo
 
 `git clone https://github.com/pagraf/Swin-BathyUNet.git`
