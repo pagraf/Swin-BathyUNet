@@ -1,6 +1,4 @@
 # Swin-BathyUNet: A Swin-Transformer Enhanced U-Net for Shallow Water Bathymetry Using Remote Sensing Imagery and Multi-view Stereo-derived DSMs with Missing Data
-![unetswin9](https://github.com/user-attachments/assets/e5198507-7491-4aff-9ac6-74764ecc5f5c)
-
 
 This repository contains the code of the paper "P. Agrafiotis and B. Demir, "Swin-BathyUNet: A Swin-Transformer Enhanced U-Net for Shallow Water Bathymetry Using Remote Sensing Imagery and Multi-view Stereo-derived DSMs with Missing Data" submitted to the ISPRS Journal of Photogrammetry and Remote Sensing"<br />
 
@@ -21,6 +19,11 @@ If you use the code in this repository or the dataset please cite:
 
 >P. Agrafiotis and B. Demir, "Swin-BathyUNet: A Swin-Transformer Enhanced U-Net for Shallow Water Bathymetry Using Remote Sensing Imagery and Multi-view Stereo-derived DSMs with Missing Data" XXX XXX.
 <br />
+
+# Architecture Overview
+Swin-BathyUNet combines U-Net with Swin Transformer self-attention layers and a cross-attention mechanism, tailored specifically for SDB.
+![unetswin9](https://github.com/user-attachments/assets/e5198507-7491-4aff-9ac6-74764ecc5f5c)
+
 
 # Getting started
 
