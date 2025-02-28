@@ -21,7 +21,8 @@ If you use the code in this repository or the dataset please cite:
 # Architecture Overview
 Swin-BathyUNet combines U-Net with Swin Transformer self-attention layers and a cross-attention mechanism, tailored specifically for SDB.
 
-![unetswin9](https://github.com/user-attachments/assets/e5198507-7491-4aff-9ac6-74764ecc5f5c)
+![unetswin10](https://github.com/user-attachments/assets/abbba1fb-d56b-400c-9edb-e7a08535a6f0)
+
 
 
 # Getting started
