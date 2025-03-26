@@ -1,6 +1,7 @@
 # Swin-BathyUNet: A Swin-Transformer Enhanced U-Net for Shallow Water Bathymetry Using Remote Sensing Imagery and Multi-view Stereo-derived DSMs with Missing Data
 
-This repository contains the code of the paper >P. Agrafiotis and B. Demir, "Deep learning-based bathymetry retrieval without in-situ depths using remote sensing imagery and SfM-MVS-derived DSMs with data gaps" XXX XXX.
+This repository contains the code of the paper 
+>P. Agrafiotis and B. Demir, "Deep learning-based bathymetry retrieval without in-situ depths using remote sensing imagery and SfM-MVS-derived DSMs with data gaps" XXX XXX.
 <br />
 submitted to the ISPRS Journal of Photogrammetry and Remote Sensing"<br />
 
