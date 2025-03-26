@@ -1,3 +1,42 @@
+'''
+Initial Pytorch Implementation: Panagiotis Agrafiotis (https://github.com/pagraf/Swin-BathyUNet)
+Email: agrafiotis.panagiotis@gmail.com
+
+Description:  Swin-BathyUNet, a deep learning model that combines U-Net with Swin Transformer self-attention 
+layers and a cross-attention mechanism, tailored specifically for SDB. Swin-BathyUNet is designed to improve 
+bathymetric accuracy by capturing long-range spatial relationships and can also function as a standalone solution 
+for standard bathymetric mapping with various training depth data, independent of SfM-MVS output.
+It outputs continuous values.
+
+If you use this code please cite our paper: "  "
+
+
+
+Attribution-NonCommercial-ShareAlike 4.0 International License
+
+Copyright (c) 2025 Panagiotis Agrafiotis
+
+This license requires that reusers give credit to the creator. It allows reusers 
+to distribute, remix, adapt, and build upon the material in any medium or format,
+for noncommercial purposes only. If others modify or adapt the material, they 
+must license the modified material under identical terms.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+
+This work is part of MagicBathy project funded by the European Union’s HORIZON Europe research and innovation 
+programme under the Marie Skłodowska-Curie GA 101063294. Work has been carried out at the Remote Sensing Image 
+Analysis group. For more information about the project visit https://www.magicbathy.eu/.
+'''
+
+
+
 #parameters optimized for images of 720x720 pixels
 
 import torch
