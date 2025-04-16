@@ -12,10 +12,37 @@ Accurate, detailed, and high-frequent bathymetry is crucial for shallow seabed a
 ## Citation
 
 If you find this repository useful, please consider giving a star ⭐.<br />
-If you use the code in this repository or the dataset please cite:
+If you use the code in this repository please cite:
 
 >P. Agrafiotis and B. Demir, "Deep learning-based bathymetry retrieval without in-situ depths using remote sensing imagery and SfM-MVS DSMs with data gaps" arXiv preprint arXiv:2504.11416 (2025).
 <br />
+
+```
+@article{agrafiotis2025,
+  title={Deep Learning-based Bathymetry Retrieval without In-situ Depths using Remote Sensing Imagery and SfM-MVS DSMs with Data Gaps},
+  author={Agrafiotis, Panagiotis and Demir, Begüm},
+  journal={ISPRS Journal of Photogrammetry and Remote Sensing},
+  volume={},
+  pages={},
+  year={2025},
+  publisher={Elsevier}
+}
+```
+
+If you use the dataset please cite:
+
+>P. Agrafiotis, Ł. Janowski, D. Skarlatos and B. Demir, "MAGICBATHYNET: A Multimodal Remote Sensing Dataset for Bathymetry Prediction and Pixel-Based Classification in Shallow Waters," IGARSS 2024 - 2024 IEEE International Geoscience and Remote Sensing Symposium, Athens, Greece, 2024, pp. 249-253, doi: 10.1109/IGARSS53475.2024.10641355.
+```
+@INPROCEEDINGS{10641355,
+  author={Agrafiotis, Panagiotis and Janowski, Łukasz and Skarlatos, Dimitrios and Demir, Begüm},
+  booktitle={IGARSS 2024 - 2024 IEEE International Geoscience and Remote Sensing Symposium}, 
+  title={MAGICBATHYNET: A Multimodal Remote Sensing Dataset for Bathymetry Prediction and Pixel-Based Classification in Shallow Waters}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={249-253},
+  doi={10.1109/IGARSS53475.2024.10641355}}
+```
 
 # Architecture Overview
 Swin-BathyUNet combines U-Net with Swin Transformer self-attention layers and a cross-attention mechanism, tailored specifically for SDB.
