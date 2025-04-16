@@ -1,6 +1,6 @@
 Attribution-NonCommercial-ShareAlike 4.0 International License
 
-Copyright (c) 2024 The MagicBathyNet Authors
+Copyright (c) 2025 Panagiotis Agrafiotis
 
 
 This license requires that reusers give credit to the creator. It allows reusers 
