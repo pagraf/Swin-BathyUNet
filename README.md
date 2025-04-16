@@ -11,7 +11,8 @@ Accurate, detailed, and high-frequent bathymetry is crucial for shallow seabed a
 
 ## Citation
 
-If you find this repository useful, please consider giving a star ⭐.<br />
+If you find this repository useful, please consider giving a star ⭐.
+<br />
 If you use the code in this repository please cite:
 
 >P. Agrafiotis and B. Demir, "Deep learning-based bathymetry retrieval without in-situ depths using remote sensing imagery and SfM-MVS DSMs with data gaps" arXiv preprint arXiv:2504.11416 (2025).
