@@ -8,7 +8,9 @@ bathymetric accuracy by capturing long-range spatial relationships and can also 
 for standard bathymetric mapping with various training depth data, independent of SfM-MVS output.
 It outputs continuous values.
 
-If you use this code please cite our paper: "  "
+If you use this code please cite our paper: "Agrafiotis, P., & Demir, B. (2025). Deep Learning-based Bathymetry 
+Retrieval without In-situ Depths using Remote Sensing Imagery and SfM-MVS DSMs with Data Gaps. 
+arXiv preprint arXiv:2504.11416."
 
 
 
