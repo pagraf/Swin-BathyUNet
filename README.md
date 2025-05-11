@@ -1,12 +1,18 @@
-# Swin-BathyUNet: A Swin-Transformer Enhanced U-Net for Shallow Water Bathymetry Using Remote Sensing Imagery and Multi-view Stereo-derived DSMs with Missing Data
+# Deep learning-based bathymetry retrieval without in-situ depths using remote sensing imagery and SfM-MVS DSMs with data gaps
 
 This repository contains the code of the paper 
->P. Agrafiotis and B. Demir, "Deep learning-based bathymetry retrieval without in-situ depths using remote sensing imagery and SfM-MVS DSMs with data gaps" arXiv preprint arXiv:2504.11416 (2025).
+>Panagiotis Agrafiotis, Begüm Demir,
+Deep learning-based bathymetry retrieval without in-situ depths using remote sensing imagery and SfM-MVS DSMs with data gaps,
+ISPRS Journal of Photogrammetry and Remote Sensing,
+Volume 225,
+2025,
+Pages 341-361,
+ISSN 0924-2716,
+https://doi.org/10.1016/j.isprsjprs.2025.04.020.
 <br />
-accepted for publication in the ISPRS Journal of Photogrammetry and Remote Sensing"<br />
 
-## Abstract of the respective paper [![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2504.11416) [![MagicBathy](https://img.shields.io/badge/MagicBathy-Project-red.svg)](https://www.magicbathy.eu)
-Accurate, detailed, and high-frequent bathymetry is crucial for shallow seabed areas facing intense climatological and anthropogenic pressures. Current methods utilizing airborne or satellite optical imagery to derive bathymetry primarily rely on either Structure-from-Motion and Multi-View Stereo (SfM-MVS) with refraction correction or Spectrally Derived Bathymetry (SDB). However, SDBmethods often require extensive manual fieldwork or costly reference data, while SfM-MVS ap- proaches face challenges even after refraction correction. These include depth data gaps and noise inenvironments with homogeneous visual textures, which hinder the creation of accurate and complete Digital Surface Models (DSMs) of the seabed. To address these challenges, this work introduces a methodology that combines the high-fidelity 3D reconstruction capabilities of the SfM-MVS methods with state-of-the-art refraction correction techniques, along with the spectral analysis capabilities of a new deep learning-based method for bathymetry prediction. This integration enables a synergistic approach where SfM-MVS derived DSMs with data gaps are used as training data to generate complete bathymetric maps. **In this context, we propose Swin-BathyUNet that combines U-Net with Swin Transformer self-attention layers and a cross-attention mechanism, specifically tailored for SDB. Swin-BathyUNet is designed to improve bathymetric accuracy by capturing long-range spatial relationships and can also function as a standalone solution for standard SDB with various training depth data, independent of the SfM-MVS output**. Experimental results in two completely different test sites in the Mediterranean and Baltic Seas demonstrate the effectiveness of the proposed approach through extensive experiments that demonstrate improvements in bathymetric accuracy, detail, coverage, and noise reduction in the predicted DSM.
+## Abstract of the respective paper [![Elsevier Paper](https://img.shields.io/static/v1?label=Elsevier&message=Paper&color=FF6600)](https://doi.org/10.1016/j.isprsjprs.2025.04.020) [![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2504.11416) [![MagicBathy](https://img.shields.io/badge/MagicBathy-Project-red.svg)](https://www.magicbathy.eu)
+Accurate, detailed, and high-frequent bathymetry is crucial for shallow seabed areas facing intense climatological and anthropogenic pressures. Current methods utilizing airborne or satellite optical imagery to derive bathymetry primarily rely on either Structure-from-Motion and Multi-View Stereo (SfM-MVS) with refraction correction or Spectrally Derived Bathymetry (SDB). However, SDB methods often require extensive manual fieldwork or costly reference data, while SfM-MVS approaches face challenges even after refraction correction. These include depth data gaps and noise in environments with homogeneous visual textures, which hinder the creation of accurate and complete Digital Surface Models (DSMs) of the seabed. To address these challenges, this work introduces a methodology that combines the high-fidelity 3D reconstruction capabilities of the SfM-MVS methods with state-of-the-art refraction correction techniques, along with the spectral analysis capabilities of a new deep learning-based method for bathymetry prediction. This integration enables a synergistic approach where SfM-MVS derived DSMs with data gaps are used as training data to generate complete bathymetric maps. In this context, we propose Swin-BathyUNet that combines U-Net with Swin Transformer self-attention layers and a cross-attention mechanism, specifically tailored for SDB. Swin-BathyUNet is designed to improve bathymetric accuracy by capturing long-range spatial relationships and can also function as a standalone solution for standard SDB with various training depth data, independent of the SfM-MVS output. Experimental results in two completely different test sites in the Mediterranean and Baltic Seas demonstrate the effectiveness of the proposed approach through extensive experiments that demonstrate improvements in bathymetric accuracy, detail, coverage, and noise reduction in the predicted DSM.
 
 
 ## Citation
@@ -16,18 +22,27 @@ If you find this repository useful, please consider giving a star ⭐.
 
 If you use the code in this repository please cite:
 
->P. Agrafiotis and B. Demir, "Deep learning-based bathymetry retrieval without in-situ depths using remote sensing imagery and SfM-MVS DSMs with data gaps" arXiv preprint arXiv:2504.11416 (2025).
+>Panagiotis Agrafiotis, Begüm Demir,
+Deep learning-based bathymetry retrieval without in-situ depths using remote sensing imagery and SfM-MVS DSMs with data gaps,
+ISPRS Journal of Photogrammetry and Remote Sensing,
+Volume 225,
+2025,
+Pages 341-361,
+ISSN 0924-2716,
+https://doi.org/10.1016/j.isprsjprs.2025.04.020.
 <br />
 
 ```
-@article{agrafiotis2025,
-  title={Deep Learning-based Bathymetry Retrieval without In-situ Depths using Remote Sensing Imagery and SfM-MVS DSMs with Data Gaps},
-  author={Agrafiotis, Panagiotis and Demir, Begüm},
-  journal={ISPRS Journal of Photogrammetry and Remote Sensing},
-  volume={},
-  pages={},
-  year={2025},
-  publisher={Elsevier}
+@article{AGRAFIOTIS2025341,
+title = {Deep learning-based bathymetry retrieval without in-situ depths using remote sensing imagery and SfM-MVS DSMs with data gaps},
+journal = {ISPRS Journal of Photogrammetry and Remote Sensing},
+volume = {225},
+pages = {341-361},
+year = {2025},
+issn = {0924-2716},
+doi = {https://doi.org/10.1016/j.isprsjprs.2025.04.020},
+url = {https://www.sciencedirect.com/science/article/pii/S0924271625001522},
+author = {Panagiotis Agrafiotis and Begüm Demir},
 }
 ```
 
