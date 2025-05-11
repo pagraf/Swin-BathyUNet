@@ -104,7 +104,7 @@ Example Sentinel-2 patch (GSD=10m) of the Agia Napa area (left), refraction corr
 ![sfm_410](https://github.com/user-attachments/assets/3f35fa83-4ec4-4eea-b714-3d49f62de928)
 ![depth_410_s2](https://github.com/user-attachments/assets/0c090aab-62a5-42c1-80bb-4be95556ff73)
 
-For more information on the results and accuracy achieved read our [paper]([https://www.magicbathy.eu/](https://doi.org/10.1016/j.isprsjprs.2025.04.020)). 
+For more information on the results and accuracy achieved read our [paper](https://www.magicbathy.eu/](https://doi.org/10.1016/j.isprsjprs.2025.04.020). 
 
 ## Authors
 Panagiotis Agrafiotis [https://www.user.tu-berlin.de/pagraf/](https://www.user.tu-berlin.de/pagraf/)
