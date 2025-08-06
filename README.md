@@ -75,7 +75,7 @@ Swin-BathyUNet combines U-Net with Swin Transformer self-attention layers and a 
 
 ## Downloading the dataset
 
-For downloading the dataset and a detailed explanation of it  (in case you don't have your own data or wish to compare), please visit the MagicBathy Project website at [https://www.magicbathy.eu/magicbathynet.html](https://www.magicbathy.eu/magicbathynet.html)
+For downloading the dataset and a detailed explanation of it  (in case you don't have your own data or wish to compare), please visit the MagicBathy Project website at [https://www.magicbathy.eu/magicbathynet.html](https://www.magicbathy.eu/magicbathynet.html). When enter the Zenodo repository, download Version v2 of MagicBathyNet, wich additionally to v1, containes the SfM-MVS files.
 
 ## Clone the repo
 
